@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
-
+#for huroku
+gem 'rails_12factor'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
 # Use postgresql as the database for Active Record
@@ -45,3 +46,4 @@ group :development do
   gem 'spring'
 end
 
+ruby '2.4.1'
